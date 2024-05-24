@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão Tempo - Geopixel</title>
+    <link rel="icon" href="img/img1.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/ol/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol/ol.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="mapa"></div>
+    <div class="container">
+        <div class="formulario">
+            <h3>Consulta Meteorológica:</h3>
+            <div class="formulario-input-container">
+                <input type="text" placeholder="Digite o nome da cidade" id="cidade-input">
+                <button id="pesquisar"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <select id="cidades-salvas" placeholder="Cidades salvas"></select>
+            <div id="dados-clima" class="hide">
+                <h2><i class="fa-solid fa-location-dot"></i><span id="cidade"></span><img src="" alt="" id="bandeira-pais"></h2>
+                <p id="temperatura"><span></span></p>
+                <div id="descricao-container">
+                    <p id="descricao"></p>
+                    <img src="" alt="Condições do tempo" id="icone-clima">
+                </div>
+                <div id="fase-lua-container">
+                    <p id="fase-lua"></p>
+                    <i id="icone-fase-lua" class=""></i>
+                </div>
+                <div id="detalhes-container">
+                    <p id="umidade"><i class="fa-solid fa-droplet"></i><span></span></p>
+                    <p id="vento"><i class="fa-solid fa-wind"></i><span></span></p>
+                </div>
+                <div id="info-adicional">
+                    <p id="data"></p>
+                    <p id="temp-max"></p>
+                    <p id="temp-min"></p>
+                    <p id="probabilidade-chuva"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

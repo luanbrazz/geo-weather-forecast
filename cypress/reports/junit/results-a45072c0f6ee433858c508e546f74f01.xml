@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.454" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-05-24T20:13:20" tests="0" file="cypress\e2e\test-app.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Teste de Proficiência em Programação - Geopixel" timestamp="2024-05-24T20:13:20" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Teste de toda a aplicação" timestamp="2024-05-24T20:13:20" tests="4" time="6.444" failures="0">
+    <testcase name="Teste de Proficiência em Programação - Geopixel Teste de toda a aplicação Testando título do cabeçalho" time="1.158" classname="Testando título do cabeçalho">
+    </testcase>
+    <testcase name="Teste de Proficiência em Programação - Geopixel Teste de toda a aplicação Digitando Cidade válida" time="0.670" classname="Digitando Cidade válida">
+    </testcase>
+    <testcase name="Teste de Proficiência em Programação - Geopixel Teste de toda a aplicação Validando se a cidade está correta" time="1.970" classname="Validando se a cidade está correta">
+    </testcase>
+    <testcase name="Teste de Proficiência em Programação - Geopixel Teste de toda a aplicação Buscando cidade salva" time="2.511" classname="Buscando cidade salva">
+    </testcase>
+  </testsuite>
+</testsuites>

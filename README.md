@@ -23,7 +23,7 @@ Este projeto é uma aplicação web desenvolvida como requisito do Teste de Prof
 - JavaScript
 - OpenLayers
 - OpenWeather API
-- Cypress para testes e geração de relatórios
+- Cypress
 
 ## Estrutura do Projeto
 - `index.html`: Arquivo HTML principal.
